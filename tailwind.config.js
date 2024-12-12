@@ -1,17 +1,13 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require("tailwindcss/defaultTheme");
-
-export default {
+module.exports = {
   content: ["index.html"],
+  darkMode: "class",
   theme: {
     container: {
       center: true,
       padding: "16px"
     },
     extend: {
-      fontFamily: {
-        sans: ["Inter var", ...defaultTheme.fontFamily.sans]
-      },
       colors: {
         primary: "#14b8a6",
         greens: "#CCFAF5",
