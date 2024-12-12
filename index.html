@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <title>Muhammad Faza's Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <navbar class="absolute bg-transparent top-0 left-0 w-full flex items-center z-10 transition-all duration-500">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#" class="py-6 font-bold text-lg text-primary block" id="logo">fazahijrann</a>
+                    <!-- <img src="img/halo.jp}" alt="logo" width="50"> -->
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-top-left transition-all duration-300"></span>
+                        <span class="hamburger-line duration-300"></span>
+                        <span class="hamburger-line origin-bottom-left transition-all duration-300"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-20 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary duration-200">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary duration-200">Tentang
+                                    Saya</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary duration-200">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#gallery"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary duration-200">Galeri</a>
+                            </li>
+                            <li class="group">
+                                <a href="#footer"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary duration-200">Kontak</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </navbar>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-primary text-base font-semibold md:text-xl"> Halo Semua 👋, saya
+                        <span class="block text-dark font-bold text-4xl mt-1 lg:text-5xl">Muhammad Faza
+                        </span>
+                    </h1>
+                    <h2 class="font-medium text-slate-600 mb-4 lg:text-xl">Mahasiswa | Begginer Programmer</h2>
+                    <p class="font-medium text-slate-500 mb-10 leading-relaxed">Selamat datang di website portofolio
+                        saya. Disini teman-teman bisa melihat pengenalan singkat tentang diri saya. Salam kenal semua!
+                    </p>
+                    <a href="#about"
+                        class="font-semibold text-white bg-primary px-8 py-3 rounded-full shadow-xl hover:opacity-80 transition duration-300 ease-in-out">Hubungi
+                        Saya</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="lg:mt-9 lg:right-0">
+                        <img src="img/huuu.png" alt="Muhammad Faza" class="max-w-full mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero End -->
+
+
+    <!-- About Start -->
+    <section id="about" class="pt-24 pb-20">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full mb-10 px-4 lg:w-1/2">
+                    <h4 class="uppercase font-bold text-lg mb-1 text-primary">Tentang Saya</h4>
+                    <h2 class="font-bold text-3xl mb-2 lg:text-4xl">Perkenalkan semua,</h2>
+                    <p class="max-w-xl text-justify font-medium text-slate-700">Saya adalah mahasiswa aktif D-3
+                        Teknologi Informasi Universitas Brawijaya dengan peminatan
+                        Teknologi
+                        Informasi dan Komputer. Memiliki ketertarikan akan dunia pemrograman website dari mulai
+                        pendokumentasian rancangan aplikasi sampai merancang suatu aplikasi.
+                    </p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 lg:pt-9">
+                    <h3 class="font-semibold text-2xl mb-2 lg:text-3xl">Mari Berteman!</h3>
+                    <p class="mb-4 font-medium text-slate-700">Kunjungi sosial media saya untuk berbicara secara
+                        langsung.</p>
+
+                    <!-- Socmed SVGs  -->
+                    <div id="contact" class="flex items-center">
+                        <!-- Instagram SVG -->
+                        <a href="https://instagram.com/fazahijrann" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full items-center justify-center flex border border-primary text-primary shadow-lg hover:bg-primary hover:text-white duration-200">
+                            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20"
+                                class="fill-current">
+                                <title>Instagram</title>
+                                <path
+                                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+                            </svg>
+                        </a>
+                        <!-- TikTok SVG -->
+                        <a href="https://www.tiktok.com/@fazahijrann" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full items-center justify-center flex border border-primary text-primary shadow-lg hover:bg-primary hover:text-white duration-200">
+                            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20"
+                                class="fill-current">
+                                <title>TikTok</title>
+                                <path
+                                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+                            </svg>
+                        </a>
+                        <!-- LinkedIn SVG -->
+                        <a href="https://linkedin.com/in/fazahijrann" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full items-center justify-center flex border border-primary text-primary shadow-lg hover:bg-primary hover:text-white duration-200">
+                            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20"
+                                class="fill-current">
+                                <title>LinkedIn</title>
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+
+    <!-- Portfolio Start -->
+    <section id="portfolio" class="pt-16 pb-16 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-full mx-auto text-center mb-14">
+                    <h4 class="font-semibold text-2xl mb-2 text-primary">Portfolio</h4>
+                    <h2 class="font-bold text-3xl lg:text-4xl mb-2 text-dark">Projek Saya</h2>
+                    <p class="font-semibold text-lg text-slate-400">Portofolio ini berisi hasil karya dan proyek-proyek
+                        akademik yang telah saya selesaikan selama masa perkuliahan.</p>
+                </div>
+            </div>
+
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <!-- SIMPELVOKS -->
+                <div class="mb-12 p-5 md:w-1/2 rounded-xl hover:bg-white duration-200 group">
+                    <a href="https://bit.ly/SimpelvoksProto" target="_blank">
+                        <div class="rounded-md shadow-md overflow-hidden">
+                            <img src="img/porto/sv.png" alt="porto 1">
+                        </div>
+                        <h3 class="text-xl font-semibold text-dark mt-5 mb-3">SIMPELVOKS</h3>
+                        <p class="text-base font-medium text-slate-500 text-justify">Projek ini ditujukan untuk
+                            memenuhi seluruh
+                            mata kuliah yang ada pada semester 3. Metode perkuliahan mulai semester 3 dilakukan dengan
+                            nama PBL (Project Based Learning), dimana saya dengan tim saya membuat satu aplikasi dengan
+                            tema Sistem Pelayanan Vokasi.
+                        </p>
+                        <div class="flex flex-wrap">
+                            <span
+                                class="w-9 h-9 mt-3 mr-2 rounded-full items-center justify-center flex bg-slate-800 text-slate-100 shadow-lg group-hover:text-white duration-200">
+                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                    class="fill-current" width="22px">
+                                    <title>Laravel</title>
+                                    <path
+                                        d="M23.642 5.43a.364.364 0 01.014.1v5.149c0 .135-.073.26-.189.326l-4.323 2.49v4.934a.378.378 0 01-.188.326L9.93 23.949a.316.316 0 01-.066.027c-.008.002-.016.008-.024.01a.348.348 0 01-.192 0c-.011-.002-.02-.008-.03-.012-.02-.008-.042-.014-.062-.025L.533 18.755a.376.376 0 01-.189-.326V2.974c0-.033.005-.066.014-.098.003-.012.01-.02.014-.032a.369.369 0 01.023-.058c.004-.013.015-.022.023-.033l.033-.045c.012-.01.025-.018.037-.027.014-.012.027-.024.041-.034H.53L5.043.05a.375.375 0 01.375 0L9.93 2.647h.002c.015.01.027.021.04.033l.038.027c.013.014.02.03.033.045.008.011.02.021.025.033.01.02.017.038.024.058.003.011.01.021.013.032.01.031.014.064.014.098v9.652l3.76-2.164V5.527c0-.033.004-.066.013-.098.003-.01.01-.02.013-.032a.487.487 0 01.024-.059c.007-.012.018-.02.025-.033.012-.015.021-.03.033-.043.012-.012.025-.02.037-.028.014-.01.026-.023.041-.032h.001l4.513-2.598a.375.375 0 01.375 0l4.513 2.598c.016.01.027.021.042.031.012.01.025.018.036.028.013.014.022.03.034.044.008.012.019.021.024.033.011.02.018.04.024.06.006.01.012.021.015.032zm-.74 5.032V6.179l-1.578.908-2.182 1.256v4.283zm-4.51 7.75v-4.287l-2.147 1.225-6.126 3.498v4.325zM1.093 3.624v14.588l8.273 4.761v-4.325l-4.322-2.445-.002-.003H5.04c-.014-.01-.025-.021-.04-.031-.011-.01-.024-.018-.035-.027l-.001-.002c-.013-.012-.021-.025-.031-.04-.01-.011-.021-.022-.028-.036h-.002c-.008-.014-.013-.031-.02-.047-.006-.016-.014-.027-.018-.043a.49.49 0 01-.008-.057c-.002-.014-.006-.027-.006-.041V5.789l-2.18-1.257zM5.23.81L1.47 2.974l3.76 2.164 3.758-2.164zm1.956 13.505l2.182-1.256V3.624l-1.58.91-2.182 1.255v9.435zm11.581-10.95l-3.76 2.163 3.76 2.163 3.759-2.164zm-.376 4.978L16.21 7.087 14.63 6.18v4.283l2.182 1.256 1.58.908zm-8.65 9.654l5.514-3.148 2.756-1.572-3.757-2.163-4.323 2.489-3.941 2.27z" />
+                                </svg>
+                            </span>
+                            <span
+                                class="w-9 h-9 mt-3 mr-2 rounded-full items-center justify-center flex bg-slate-800 text-slate-100 shadow-lg group-hover:text-white duration-200">
+                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                    class="fill-current" width="20px">
+                                    <title>Bootstrap</title>
+                                    <path
+                                        d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <!-- Pandu Sehat -->
+                <div class="mb-12 p-5 md:w-1/2 rounded-xl hover:bg-white duration-200 group">
+                    <a href="https://bit.ly/pandusehat" target="_blank">
+                        <div class=" rounded-md shadow-md overflow-hidden">
+                            <img src="img/porto/ps.png" alt="porto 2">
+                        </div>
+                        <h3 class="text-xl font-semibold text-dark mt-5 mb-3 w-1/2">Pandu Sehat</h3>
+                        <p class="text-base font-medium text-slate-500 text-justify">Projek ini ditujukan untuk
+                            memenuhi tugas mata kuliah pada semester 4 dengan membuat aplikasi dengan menggunakan bahasa
+                            pemrograman PHP yang menggunakan framework CodeIgniter 4.
+                        </p>
+                        <div class="flex flex-wrap">
+                            <span
+                                class="w-9 h-9 mt-3 mr-2 rounded-full items-center justify-center flex bg-slate-800 text-slate-100 shadow-lg group-hover:text-white duration-200">
+                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                    class="fill-current" width="20px">
+                                    <title>CodeIgniter</title>
+                                    <path
+                                        d="M11.466 0c.88 1.423-.28 3.306-1.207 4.358-.899 1.02-1.992 1.873-2.985 2.8-1.066.996-2.091 2.044-2.967 3.213-1.753 2.339-2.827 5.28-2.038 8.199.788 2.916 3.314 4.772 6.167 5.429-1.44-.622-2.786-2.203-2.79-3.82-.003-1.765 1.115-3.262 2.505-4.246-.167.632-.258 1.21.155 1.774a1.68 1.68 0 0 0 1.696.642c1.487-.326 1.556-1.96.674-2.914-.872-.943-1.715-2.009-1.384-3.377.167-.685.588-1.328 1.121-1.787-.41 1.078.755 2.14 1.523 2.67 1.332.918 2.793 1.612 4.017 2.688 1.288 1.132 2.24 2.661 2.047 4.435-.208 1.923-1.736 3.26-3.45 3.936 3.622-.8 7.365-3.61 7.44-7.627.093-3.032-1.903-5.717-5.158-7.384.19.48.074.697-.058.924-.55.944-2.082 1.152-2.835.184-1.205-1.548.025-3.216.197-4.855.215-2.055-1.073-4.049-2.67-5.242z" />
+                                </svg>
+                            </span>
+                            <span
+                                class="w-9 h-9 mt-3 mr-2 rounded-full items-center justify-center flex bg-slate-800 text-slate-100 shadow-lg group-hover:text-white duration-200">
+                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                    class="fill-current" width="20px">
+                                    <title>Bootstrap</title>
+                                    <path
+                                        d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio End -->
+
+
+    <!-- Gallery Start -->
+    <section id="gallery" class="pt-20 pb-20 bg-slate-800">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-full mx-auto text-center mb-14">
+                    <h4 class="font-semibold text-2xl mb-1 text-slate-300">Galeri</h4>
+                    <h2 class="font-bold text-3xl lg:text-4xl mb-2 text-white">Kegiatan Magang</h2>
+                    <h4 class="font-semibold text-lg text-slate-400">Berikut adalah kegiatan saya selama magang di
+                        Dinas Komunikasi dan Informatika Kota Bogor</h4>
+                    <p class="font-medium text-base text-slate-500"></p>
+                </div>
+            </div>
+
+            <div class="p-2 grid grid-cols-2 gap-3 md:grid-cols-3 justify-items-center">
+                <div class="group grid-card">
+                    <img src="img/keg/1.jpg" alt="kegiatan 1"
+                        class="-translate-y-32 sm:-translate-y-32 md:-translate-y-0 xl:-translate-y-44 group-hover:scale-105 transition-all duration-300 ease-in-out" />
+                    <div
+                        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-dark bg-fixed opacity-0 transition duration-300 ease-in-out group-hover:opacity-60">
+                    </div>
+                    <div class="absolute bottom-0 top-0 left-0 right-0 w-full h-full flex items-center justify-center">
+                        <div
+                            class="self-center text-center justify-center opacity-0 group-hover:opacity-100 text-white transition-all duration-300 ease-in-out block">
+                            <h1 class="text-md font-medium lg:text-xl">Pelatihan TND</h1>
+                            <p class="mx-3 text-sm lg:text-base">Melaksanakan Pelatihan TND di Disdik Kota Bogor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group grid-card">
+                    <img src="img/keg/2.jpg" alt="kegiatan 2"
+                        class="-translate-y-20 sm:-translate-y-32 md:-translate-y-0 xl:-translate-y-40 group-hover:scale-105 transition-all duration-300 ease-in-out" />
+                    <div
+                        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-dark bg-fixed opacity-0 transition duration-300 ease-in-out group-hover:opacity-60">
+                    </div>
+                    <div class="absolute bottom-0 top-0 left-0 right-0 w-full h-full flex items-center justify-center">
+                        <div
+                            class="self-center text-center justify-center opacity-0 group-hover:opacity-100 text-white transition-all duration-300 ease-in-out block">
+                            <h1 class="text-md font-medium lg:text-xl">Laporan Bulanan</h1>
+                            <p class="mx-3 text-sm lg:text-base">Ekspos laporan kegiatan setiap akhir bulan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group grid-card">
+                    <img src="img/keg/3.jpg" alt="kegiatan 3"
+                        class="-translate-y-20 sm:-translate-y-32 md:-translate-y-0 xl:-translate-y-44 group-hover:scale-105 transition-all duration-300 ease-in-out" />
+                    <div
+                        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-dark bg-fixed opacity-0 transition duration-300 ease-in-out group-hover:opacity-60">
+                    </div>
+                    <div class="absolute bottom-0 top-0 left-0 right-0 w-full h-full flex items-center justify-center">
+                        <div
+                            class="self-center text-center justify-center opacity-0 group-hover:opacity-100 text-white transition-all duration-300 ease-in-out block">
+                            <h1 class="text-md font-medium lg:text-xl">Perancangan Web PPID</h1>
+                            <p class="mx-3 text-sm lg:text-base">Pembuatan Probis untuk Web PPID Kota Bogor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group grid-card">
+                    <img src="img/keg/4.jpg" alt="kegiatan 4"
+                        class="-translate-y-16 sm:-translate-y-32 md:-translate-y-0 xl:-translate-y-20 group-hover:scale-105 transition-all duration-300 ease-in-out" />
+                    <div
+                        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-dark bg-fixed opacity-0 transition duration-300 ease-in-out group-hover:opacity-60">
+                    </div>
+                    <div class="absolute bottom-0 top-0 left-0 right-0 w-full h-full flex items-center justify-center">
+                        <div
+                            class="self-center text-center justify-center opacity-0 group-hover:opacity-100 text-white transition-all duration-300 ease-in-out block">
+                            <h1 class="text-md font-medium lg:text-xl">Pembelajaran Laravel</h1>
+                            <p class="mx-3 text-sm lg:text-base">Mendalami Tentang Laravel 11</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group grid-card">
+                    <img src="img/keg/5.jpg" alt="kegiatan 5"
+                        class="-translate-y-16 sm:-translate-y-32 md:-translate-y-0 xl:-translate-y-28 group-hover:scale-105 transition-all duration-300 ease-in-out" />
+                    <div
+                        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-dark bg-fixed opacity-0 transition duration-300 ease-in-out group-hover:opacity-60">
+                    </div>
+                    <div class="absolute bottom-0 top-0 left-0 right-0 w-full h-full flex items-center justify-center">
+                        <div
+                            class="self-center text-center justify-center opacity-0 group-hover:opacity-100 text-white transition-all duration-300 ease-in-out block">
+                            <h1 class="text-md font-medium lg:text-xl">Olahraga Pagi</h1>
+                            <p class="mx-3 text-sm lg:text-base">Mengelilingi Kebun Raya Bogor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group grid-card">
+                    <img src="img/keg/6.jpg" alt="kegiatan 6"
+                        class="-translate-y-16 sm:-translate-y-32 md:-translate-y-0 xl:-translate-y-32 group-hover:scale-105 transition-all duration-300 ease-in-out" />
+                    <div
+                        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-dark bg-fixed opacity-0 transition duration-300 ease-in-out group-hover:opacity-60">
+                    </div>
+                    <div class="absolute bottom-0 top-0 left-0 right-0 w-full h-full flex items-center justify-center">
+                        <div
+                            class="self-center text-center justify-center opacity-0 group-hover:opacity-100 text-white transition-all duration-300 ease-in-out block">
+                            <h1 class="text-md font-medium lg:text-xl">Sosialisasi Siber</h1>
+                            <p class="mx-3 text-sm lg:text-base">Mengikuti Sosialisasi Keamanan Siber di Lingkungan
+                                Pemerintah Kota
+                                Bogor di Paseban Sri Baduga Balai Kota Bogor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group grid-card-ls">
+                    <img src="img/keg/7.jpg" alt="kegiatan 7"
+                        class="group-hover:scale-105 transition-all duration-300 ease-in-out" />
+                    <div
+                        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-dark bg-fixed opacity-0 transition duration-300 ease-in-out group-hover:opacity-60">
+                    </div>
+                    <div class="absolute bottom-0 top-0 left-0 right-0 w-full h-full flex items-center justify-center">
+                        <div
+                            class="self-center text-center justify-center opacity-0 group-hover:opacity-100 text-white transition-all duration-300 ease-in-out block">
+                            <h1 class="text-md font-medium lg:text-xl">Sosialisasi Aplikasi BSW</h1>
+                            <p class="mx-3 text-sm lg:text-base">Pengenalan Aplikasi BSW dan BSW Mobile</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group grid-card-ls">
+                    <img src="img/keg/8.jpg" alt="kegiatan 8"
+                        class="group-hover:scale-105 transition-all duration-300 ease-in-out" />
+                    <div
+                        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-dark bg-fixed opacity-0 transition duration-300 ease-in-out group-hover:opacity-60">
+                    </div>
+                    <div class="absolute bottom-0 top-0 left-0 right-0 w-full h-full flex items-center justify-center">
+                        <div
+                            class="self-center text-center justify-center opacity-0 group-hover:opacity-100 text-white transition-all duration-300 ease-in-out block">
+                            <h1 class="text-md font-medium lg:text-xl">Pelatihan TND</h1>
+                            <p class="mx-3 text-sm lg:text-base">Melaksanakan Pelatihan TND di Dispora Kota Bogor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group grid-card-ls">
+                    <img src="img/keg/9.jpg" alt="kegiatan 9"
+                        class="group-hover:scale-105 transition-all duration-300 ease-in-out" />
+                    <div
+                        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-dark bg-fixed opacity-0 transition duration-300 ease-in-out group-hover:opacity-60">
+                    </div>
+                    <div class="absolute bottom-0 top-0 left-0 right-0 w-full h-full flex items-center justify-center">
+                        <div
+                            class="self-center text-center justify-center opacity-0 group-hover:opacity-100 text-white transition-all duration-300 ease-in-out block">
+                            <h1 class="text-md font-medium lg:text-xl">Pengelolaan Website TP PKK</h1>
+                            <p class="mx-3 text-sm lg:text-base">Mengelola Website TP PKK Kelurahan Kebon Pedes Kota
+                                Bogor</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="group grid-card-ls md:col-start-2">
+                    <img src="img/keg/10.jpg" alt="kegiatan 10"
+                        class="group-hover:scale-150 transition-all duration-300 ease-in-out scale-125" />
+                    <div
+                        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-dark bg-fixed opacity-0 transition duration-300 ease-in-out group-hover:opacity-60">
+                    </div>
+                    <div class="absolute bottom-0 top-0 left-0 right-0 w-full h-full flex items-center justify-center">
+                        <div
+                            class="self-center text-center justify-center opacity-0 group-hover:opacity-100 text-white transition-all duration-300 ease-in-out block">
+                            <h1 class="text-md font-medium lg:text-xl">Berkarya Dengan Musik</h1>
+                            <p class="mx-3 text-sm lg:text-base">Mengisi Waktu Luang dengan Bermain Musik</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Gallery End -->
+
+
+    <!-- Footer Start -->
+    <section id="footer">
+        <footer class="bg-slate-900">
+            <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+                <div class="sm:flex items-center justify-center">
+                    <div class="px-4 w-1/2">
+                        <a href="#" class="font-bold text-xl text-white block" id="logo">fazahijrann</a>
+                    </div>
+                    <ul
+                        class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 w-1/2 justify-end">
+                        <li>
+                            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
+                <span class="block text-sm text-gray-500 sm:text-center "> © 2024 <a href="#"
+                        class="hover:underline">Muhammad Faza Dias Hijran</a>. All Rights
+                    Reserved.</span>
+            </div>
+        </footer>
+    </section>
+    <!-- Footer End -->
+    <!-- Scroll-to-top button -->
+</body>
+
+</html>
